@@ -178,7 +178,7 @@ Meta Score =
 
 
 
-### Save the cleaned dataset as a CSV file in Colab
+### 8. Save the cleaned dataset as a CSV file in Colab
 ```
 df.to_csv("mlbb_cleaned.csv", index=False)
 
