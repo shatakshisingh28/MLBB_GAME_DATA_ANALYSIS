@@ -174,3 +174,13 @@ Meta Score =
 0.50 × Win Score
 + 0.30 × Pick Score
 + 0.20 × Ban Score
+```
+
+
+
+### Save the cleaned dataset as a CSV file in Colab
+```
+df.to_csv("mlbb_cleaned.csv", index=False)
+
+print("Cleaned dataset saved successfully!")
+```
